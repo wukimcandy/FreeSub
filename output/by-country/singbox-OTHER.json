@@ -4,102 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.25.30.10",
-      "server_port": 443,
-      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
-      "tls": {
-        "enabled": true,
-        "server_name": "de14.69lover.my",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v2/6c316c769ad6853c/stream",
-        "headers": {
-          "Host": "de14.69lover.my"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.25.30.10",
-      "server_port": 443,
-      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
-      "tls": {
-        "enabled": true,
-        "server_name": "de14.69lover.my",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v2/6c316c769ad6853c/stream",
-        "headers": {
-          "Host": "de14.69lover.my"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
-      "server": "104.25.30.10",
-      "server_port": 443,
-      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
-      "tls": {
-        "enabled": true,
-        "server_name": "de14.69lover.my",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v2/6c316c769ad6853c/stream",
-        "headers": {
-          "Host": "de14.69lover.my"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 04 - xiaohe",
-      "server": "104.25.30.10",
-      "server_port": 443,
-      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
-      "tls": {
-        "enabled": true,
-        "server_name": "de14.69lover.my",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v2/6c316c769ad6853c/stream",
-        "headers": {
-          "Host": "de14.69lover.my"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
       "server": "104.21.13.204",
       "server_port": 443,
       "password": "humanity",
@@ -118,7 +24,26 @@
     },
     {
       "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
+      "server": "104.21.13.204",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
       "server": "104.21.13.204",
       "server_port": 443,
       "password": "humanity",
@@ -133,8 +58,8 @@
     },
     {
       "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
-      "server": "104.21.13.204",
+      "tag": "🌐 其他地区 (Other) 04 - xiaohe",
+      "server": "104.16.72.50",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -151,6 +76,36 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
+      "server": "104.16.72.50",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
+      "server": "104.16.72.50",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -160,8 +115,7 @@
         "🌐 其他地区 (Other) 03 - xiaohe",
         "🌐 其他地区 (Other) 04 - xiaohe",
         "🌐 其他地区 (Other) 05 - xiaohe",
-        "🌐 其他地区 (Other) 06 - xiaohe",
-        "🌐 其他地区 (Other) 07 - xiaohe"
+        "🌐 其他地区 (Other) 06 - xiaohe"
       ]
     },
     {
@@ -173,8 +127,7 @@
         "🌐 其他地区 (Other) 03 - xiaohe",
         "🌐 其他地区 (Other) 04 - xiaohe",
         "🌐 其他地区 (Other) 05 - xiaohe",
-        "🌐 其他地区 (Other) 06 - xiaohe",
-        "🌐 其他地区 (Other) 07 - xiaohe"
+        "🌐 其他地区 (Other) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

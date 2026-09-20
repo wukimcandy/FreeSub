@@ -5,18 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇪 比利时 (Belgium) 01 - xiaohe
-  server: 157.228.142.148
+  server: 165.232.39.212
   port: 8443
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
   servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  client-fingerprint: chrome
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /act/rank/lang?ed=2560
+    path: /html/shows?ed=2560fp=chrome
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
