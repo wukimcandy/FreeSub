@@ -5,6 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇱 以色列 (Israel) 01 - xiaohe
+  server: 176.65.151.237
+  port: 34528
+  udp: true
+  type: vless
+  uuid: 61906623-1a22-41d4-839c-f9117cc72846
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
+- name: 🇮🇱 以色列 (Israel) 02 - xiaohe
   server: 185.95.231.156
   port: 443
   udp: true
@@ -17,15 +26,6 @@ proxies:
     short-id: a3a578ab
   servername: www.apple.com
   client-fingerprint: random
-- name: 🇮🇱 以色列 (Israel) 02 - xiaohe
-  server: 176.65.151.237
-  port: 34528
-  udp: true
-  type: vless
-  uuid: 61906623-1a22-41d4-839c-f9117cc72846
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
 proxy-groups:
 - name: PROXIES
   type: select
