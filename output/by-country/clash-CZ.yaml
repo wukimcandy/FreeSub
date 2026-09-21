@@ -5,20 +5,44 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 188.114.96.0
+  server: 188.114.97.6
   port: 443
   udp: true
   type: vless
-  uuid: 20836693-ea23-4f40-a1e7-48a6da897917
+  uuid: 07821f66-cdb7-4c70-9de6-e230cffac470
   tls: true
-  servername: netra-85a0ca.shoameni19.workers.dev
+  servername: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/Li1khIHH3DNItJyzraemsPBQvu
+    headers:
+      Host: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 20e295db-a6af-4006-bfd6-91453f169968
+  tls: true
+  servername: 057.electrocellco-cf-057.workers.dev
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vl/VKec4m2dLHFngRv9xsOhnj9ZLjotNh?ed=2560
+    path: /eyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: netra-85a0ca.shoameni19.workers.dev
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+      Host: 057.electrocellco-cf-057.workers.dev
+- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
+  server: 153.76.185.189
+  port: 3090
+  udp: true
+  type: vless
+  uuid: 5ebdc9ee-8b41-4487-93af-231cb0b47d60
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 04 - xiaohe
   server: 95.85.230.35
   port: 443
   udp: true
@@ -37,6 +61,8 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇨🇿 捷克 (Czech) 03 - xiaohe
+  - 🇨🇿 捷克 (Czech) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -44,5 +70,7 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇨🇿 捷克 (Czech) 03 - xiaohe
+  - 🇨🇿 捷克 (Czech) 04 - xiaohe
 rules:
 - MATCH,PROXIES
