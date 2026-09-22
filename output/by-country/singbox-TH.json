@@ -13,53 +13,14 @@
         "type": "ws",
         "path": "/ws",
         "headers": {
-          "Host": "ais.speedtest.net"
+          "Host": "v2ray.simspeedup.com"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇹🇭 泰国 (Thailand) 02 - xiaohe",
-      "server": "34.15.162.1",
-      "server_port": 443,
-      "uuid": "2b1d0c2a-9c80-4b72-892e-93d0500b9210",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
-          "short_id": "ca672c53fbbac555"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 03 - xiaohe",
-      "server": "209.33.167.234",
-      "server_port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/library/sort?ed=2560fp=chrome",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 04 - xiaohe",
-      "server": "104.19.32.166",
+      "server": "162.159.192.125",
       "server_port": 443,
       "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
       "tls": {
@@ -77,26 +38,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 05 - xiaohe",
-      "server": "152.67.101.72",
-      "server_port": 23010,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tag": "🇹🇭 泰国 (Thailand) 03 - xiaohe",
+      "server": "34.15.162.1",
+      "server_port": 443,
+      "uuid": "2b1d0c2a-9c80-4b72-892e-93d0500b9210",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
+          "short_id": "ca672c53fbbac555"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "🇹🇭 泰国 (Thailand) 06 - xiaohe",
+      "tag": "🇹🇭 泰国 (Thailand) 04 - xiaohe",
       "server": "118.193.57.167",
       "server_port": 49667,
       "uuid": "d46bf492-45f4-4c33-82d1-ea2a1cb54eb6",
@@ -114,9 +76,7 @@
         "🇹🇭 泰国 (Thailand) 01 - xiaohe",
         "🇹🇭 泰国 (Thailand) 02 - xiaohe",
         "🇹🇭 泰国 (Thailand) 03 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 04 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 05 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 06 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 04 - xiaohe"
       ]
     },
     {
@@ -126,9 +86,7 @@
         "🇹🇭 泰国 (Thailand) 01 - xiaohe",
         "🇹🇭 泰国 (Thailand) 02 - xiaohe",
         "🇹🇭 泰国 (Thailand) 03 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 04 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 05 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 06 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
