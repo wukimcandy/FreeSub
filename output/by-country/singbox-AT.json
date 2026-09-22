@@ -23,7 +23,7 @@
         "server_name": "at.quattro-tech.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -33,30 +33,15 @@
       }
     },
     {
-      "type": "vmess",
+      "type": "trojan",
       "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-      "server": "zfd-boardv2.kunlun01dns.com",
-      "server_port": 16308,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 04 - xiaohe",
-      "server": "188.114.97.6",
+      "server": "86.106.119.23",
       "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-48493148ec15",
+      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
       "tls": {
         "enabled": true,
-        "server_name": "cgzdynepurqs.mercury061.workers.dev",
+        "server_name": "gr.freeguard.org",
         "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/48493148ec15",
-        "headers": {
-          "Host": "cgzdynepurqs.mercury061.workers.dev"
-        }
       }
     },
     {
@@ -66,8 +51,7 @@
         "auto",
         "🇦🇹 奥地利 (Austria) 01 - xiaohe",
         "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 04 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 03 - xiaohe"
       ]
     },
     {
@@ -76,8 +60,7 @@
       "outbounds": [
         "🇦🇹 奥地利 (Austria) 01 - xiaohe",
         "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 04 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

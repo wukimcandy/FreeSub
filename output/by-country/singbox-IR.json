@@ -4,25 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
-      "server": "157.137.212.178",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+      "type": "shadowsocks",
+      "tag": "🇮🇷 IR 01 - xiaohe",
+      "server": "p1tun2.greewebservices.ir",
+      "server_port": 2060,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ao5znrhEwVqoJy-l7AVvgw"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
