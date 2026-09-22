@@ -14,7 +14,7 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
-      "server": "193.42.39.10",
+      "server": "79.141.174.147",
       "server_port": 33743,
       "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
       "tls": {
@@ -57,7 +57,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -93,19 +93,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 07 - xiaohe",
-      "server": "143.246.194.60",
-      "server_port": 8081,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "transport": {
-        "type": "ws",
-        "path": "/vless-test"
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇸🇪 瑞典 (Sweden) 08 - xiaohe",
+      "tag": "🇸🇪 瑞典 (Sweden) 07 - xiaohe",
       "server": "se-node.rumedia-cdn.com",
       "server_port": 25443,
       "password": "29ffde49-e1d6-4dcd-a135-352920f9f0b8",
@@ -113,6 +102,36 @@
         "enabled": true,
         "server_name": "cf2.rumedia-cdn.com",
         "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 08 - xiaohe",
+      "server": "104.18.80.149",
+      "server_port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-4017ea8bea78",
+      "tls": {
+        "enabled": true,
+        "server_name": "zeus-panel-mvtum1.mahdiharchegani.workers.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/stream/PANEL_ZEUS/4017ea8bea78/loc-4fp=unsafe",
+        "headers": {
+          "Host": "zeus-panel-mvtum1.mahdiharchegani.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 09 - xiaohe",
+      "server": "143.246.194.60",
+      "server_port": 8081,
+      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-test"
       }
     },
     {
@@ -127,7 +146,8 @@
         "🇸🇪 瑞典 (Sweden) 05 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 06 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 07 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 08 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 08 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 09 - xiaohe"
       ]
     },
     {
@@ -141,7 +161,8 @@
         "🇸🇪 瑞典 (Sweden) 05 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 06 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 07 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 08 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 08 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 09 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

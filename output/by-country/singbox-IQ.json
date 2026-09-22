@@ -6,12 +6,12 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "104.17.147.22",
+      "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "4ccf70f9-7632-4b5a-9557-10d2dd347bb2",
+      "uuid": "b9ede7a5-5b4b-4aee-ac37-2c307e587e47",
       "tls": {
         "enabled": true,
-        "server_name": "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev",
+        "server_name": "courses.mftplus.qzz.io",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/G4J8aNAVZt9KdOjjcfZDFDRI1Obr5E0?ed=2560",
+        "path": "/eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
         "headers": {
-          "Host": "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
+          "Host": "courses.mftplus.qzz.io"
         }
       }
     },

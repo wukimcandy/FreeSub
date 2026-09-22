@@ -6,6 +6,19 @@
     {
       "type": "vless",
       "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe",
+      "server": "chat.openai.com",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "vms.lifetime29.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇲 亚美尼亚 (Armenia) 02 - xiaohe",
       "server": "swe1.accessgate.link",
       "server_port": 2096,
       "uuid": "38eb3e71-4349-4bd6-9baf-9740e1896495",
@@ -29,14 +42,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe",
+        "🇦🇲 亚美尼亚 (Armenia) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe",
+        "🇦🇲 亚美尼亚 (Armenia) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

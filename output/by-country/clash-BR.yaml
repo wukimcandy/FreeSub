@@ -5,6 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  server: 172.233.14.17
+  port: 22324
+  udp: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
   server: 34.39.174.220
   port: 443
   udp: true
@@ -16,14 +24,6 @@ proxies:
     short-id: b62a4da6cd1c4dd6
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  server: 172.233.14.17
-  port: 22324
-  udp: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
