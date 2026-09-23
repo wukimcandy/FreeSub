@@ -13,7 +13,7 @@ proxies:
   sni: hopp-romania-new.roxa.org
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
-  server: bogging-eyeteeth-fly.freesocks.work
+  server: 154.46.31.106
   port: 443
   udp: true
   type: ss
@@ -44,9 +44,9 @@ proxies:
     public-key: byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE
     short-id: fe24f8a0a560056e
   servername: www.datadoghq.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
-  server: 193.163.203.253
+  server: bl3fk52.sysopnova.art
   port: 443
   udp: true
   type: vless
@@ -64,7 +64,7 @@ proxies:
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: google.com
+  sni: 185.156.44.99
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
