@@ -5,20 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 172.66.47.45
-  port: 443
-  udp: true
-  type: vless
-  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
-  tls: true
-  servername: ezaccess-project-f62c30.pages.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: ezaccess-project-f62c30.pages.dev
-- name: 🇮🇶 IQ 02 - xiaohe
   server: 193.8.215.96
   port: 9443
   udp: true
@@ -31,6 +17,19 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: de03-grpc-8e47a
+- name: 🇮🇶 IQ 02 - xiaohe
+  server: 193.56.135.212
+  port: 9543
+  udp: true
+  type: vless
+  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
+    short-id: 123abcde
+  servername: storage.yandexcloud.net
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select

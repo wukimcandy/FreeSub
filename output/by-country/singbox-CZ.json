@@ -5,24 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe",
-      "server": "104.21.117.9",
-      "server_port": 443,
-      "uuid": "0926b50d-3a90-18dd-7c8e-0cf100000000",
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "188.124.59.145",
+      "server_port": 18443,
+      "uuid": "8df7343e-2427-41fb-aad1-6c563296faf6",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "netlivpn4024.bgfjhd.workers.dev",
-        "insecure": false,
+        "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "netlivpn4024.bgfjhd.workers.dev"
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1KY_jqa2yPLBEBa-3TG77zs4ak2zQLGul4eexxCueyI",
+          "short_id": "f087eb07da743e94"
         }
       }
     },
@@ -31,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
