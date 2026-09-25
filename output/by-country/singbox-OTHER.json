@@ -6,46 +6,57 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.18.15.103",
+      "server": "104.16.10.185",
       "server_port": 443,
-      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
+      "uuid": "c4edb87e-8544-4fa4-bd1c-b0cda9a34b46",
       "tls": {
         "enabled": true,
-        "server_name": "server9.9966338.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "a.cwvps.eu.org",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/imnotarealherox",
+        "path": "/ws",
         "headers": {
-          "Host": "server9.9966338.xyz"
+          "Host": "a.cwvps.eu.org"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "172.67.153.156",
+      "server": "104.16.10.185",
       "server_port": 443,
-      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
         "enabled": true,
-        "server_name": "ccs2g.pai50288.uk",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "jp3.yohototo.top",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/pai50288",
+        "path": "/tyxyws",
         "headers": {
-          "Host": "ccs2g.pai50288.uk"
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
+      "server": "104.16.10.185",
+      "server_port": 443,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "tls": {
+        "enabled": true,
+        "server_name": "v2ray.simspeedup.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "v2ray.simspeedup.com"
         }
       }
     },
@@ -55,7 +66,8 @@
       "outbounds": [
         "auto",
         "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe"
+        "🌐 其他地区 (Other) 02 - xiaohe",
+        "🌐 其他地区 (Other) 03 - xiaohe"
       ]
     },
     {
@@ -63,7 +75,8 @@
       "tag": "auto",
       "outbounds": [
         "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe"
+        "🌐 其他地区 (Other) 02 - xiaohe",
+        "🌐 其他地区 (Other) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
