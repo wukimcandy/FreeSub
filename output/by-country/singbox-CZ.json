@@ -6,28 +6,9 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "netra-85a0ca.shoameni19.workers.dev",
-      "server_port": 443,
-      "uuid": "20836693-ea23-4f40-a1e7-48a6da897917",
-      "tls": {
-        "enabled": true,
-        "server_name": "netra-85a0ca.shoameni19.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/bluTTbb7MO8rvX1COEYH4WW4qzbr2aui?ed=2560 ",
-        "headers": {
-          "Host": "netra-85a0ca.shoameni19.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "194.87.59.26",
-      "server_port": 2085,
-      "uuid": "720814fb-e38e-4570-97a7-c5df60352d37",
+      "server": "153.76.185.104",
+      "server_port": 3090,
+      "uuid": "6bd9b04b-17de-4f05-b8b8-e5f2a0a649c1",
       "transport": {
         "type": "grpc",
         "service_name": "vless"
@@ -38,16 +19,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
