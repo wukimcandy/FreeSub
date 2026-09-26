@@ -33,49 +33,18 @@ proxies:
   sni: filesconvert.org
   skip-cert-verify: true
 - name: 🇦🇹 奥地利 (Austria) 04 - xiaohe
-  server: 212.183.88.136
-  port: 443
+  server: zcsagftt.selqora.ir
+  port: 51595
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇦🇹 奥地利 (Austria) 05 - xiaohe
-  server: 212.183.88.136
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇦🇹 奥地利 (Austria) 06 - xiaohe
-  server: 212.183.88.136
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇦🇹 奥地利 (Austria) 07 - xiaohe
-  server: 212.183.88.136
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
+  type: vless
+  uuid: a5f3e491-23aa-4293-a37a-93b20796adc2
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SAEWzHGGBsp8haTh34RoN5NwoxiCgZzzJo7jWi-DJXw
+    short-id: 913175efbe9ddb1d
+  servername: play.google.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -85,9 +54,6 @@ proxy-groups:
   - 🇦🇹 奥地利 (Austria) 02 - xiaohe
   - 🇦🇹 奥地利 (Austria) 03 - xiaohe
   - 🇦🇹 奥地利 (Austria) 04 - xiaohe
-  - 🇦🇹 奥地利 (Austria) 05 - xiaohe
-  - 🇦🇹 奥地利 (Austria) 06 - xiaohe
-  - 🇦🇹 奥地利 (Austria) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -97,8 +63,5 @@ proxy-groups:
   - 🇦🇹 奥地利 (Austria) 02 - xiaohe
   - 🇦🇹 奥地利 (Austria) 03 - xiaohe
   - 🇦🇹 奥地利 (Austria) 04 - xiaohe
-  - 🇦🇹 奥地利 (Austria) 05 - xiaohe
-  - 🇦🇹 奥地利 (Austria) 06 - xiaohe
-  - 🇦🇹 奥地利 (Austria) 07 - xiaohe
 rules:
 - MATCH,PROXIES
