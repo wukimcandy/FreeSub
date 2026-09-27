@@ -6,64 +6,22 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "104.17.147.22",
+      "server": "gerwai1488.vvzzkontaktezzvv.garden",
       "server_port": 443,
-      "uuid": "7fc7f295-b80e-4235-bb17-61e3ddc0744a",
+      "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
+        "server_name": "gerwai1488.vvzzkontaktezzvv.garden",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/dirxIBhljtrTSM76Q",
-        "headers": {
-          "Host": "4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "66.81.247.155",
-      "server_port": 2083,
-      "uuid": "6cc29a05-4828-4e48-a34a-20b7ada60e85",
-      "tls": {
-        "enabled": true,
-        "server_name": "testmikonim.hydrymhmdamyn7.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
+          "fingerprint": "random"
+        },
+        "reality": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "public_key": "EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0",
+          "short_id": "0c13e8822e7f58aa"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/OAZko425kNFF0PpQ",
-        "headers": {
-          "Host": "testmikonim.hydrymhmdamyn7.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 03 - xiaohe",
-      "server": "153.76.185.151",
-      "server_port": 3090,
-      "uuid": "51c8ed23-7ca5-43f1-b0a8-0a37a7a16647",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless"
       }
     },
     {
@@ -71,18 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe",
-        "🇨🇿 捷克 (Czech) 03 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe",
-        "🇨🇿 捷克 (Czech) 03 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

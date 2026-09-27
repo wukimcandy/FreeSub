@@ -5,21 +5,46 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  server: 188.225.78.31
+  port: 2053
+  udp: true
+  type: ss
+  cipher: 2022-blake3-aes-256-gcm
+  password: g4h/AcJh1+jg9+yonlMK4Wq7fhbFY3NkcOzUVlZ9GjU=
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  server: 130.49.189.158
+  port: 43558
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ziOeKejhhw+fmWet+xvuJsVJH7U9DvSWq1hlqtaKv+I=
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   server: 176.32.35.2
   port: 10090
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: 895b4b796a357570
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   server: 91.240.86.70
   port: 22443
   udp: true
   type: hysteria2
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   sni: itsallproxy.quattro-tech.ru
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  server: 201.51.4.39
+  port: 443
+  udp: true
+  type: vless
+  uuid: 6f73611a-bfd9-4712-9f33-fda2da70332a
+  flow: xtls-rprx-vision
+  tls: true
+  servername: freevk.cryposikel.ru
+  skip-cert-verify: false
+  client-fingerprint: safari
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   server: du-rov.secureservice.top
   port: 8443
   udp: true
@@ -32,42 +57,6 @@ proxies:
     short-id: 3cbc3d737fb9c4af
   servername: du-rov.secureservice.top
   client-fingerprint: random
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 31.76.65.234.fwqfw783rg2dad.website
-  port: 443
-  udp: true
-  type: vless
-  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
-  tls: true
-  servername: 31.76.65.234.fwqfw783rg2dad.website
-  skip-cert-verify: false
-  client-fingerprint: qq
-  network: ws
-  ws-opts:
-    path: /websocket
-    headers:
-      Host: 31.76.65.234.fwqfw783rg2dad.website
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 62.109.12.234
-  port: 2055
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: WxYpOK1iPSJySbVNMMJDtw
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  server: 46.8.200.91
-  port: 443
-  udp: true
-  type: vless
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
-  tls: true
-  servername: cf3.rumedia-cdn.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf3.rumedia-cdn.com
 proxy-groups:
 - name: PROXIES
   type: select
