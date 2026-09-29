@@ -22,7 +22,7 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -40,13 +40,22 @@
       "password": "9qGcNiZj4uCi7DGSjxlg5Q"
     },
     {
+      "type": "vmess",
+      "tag": "🇳🇴 挪威 (Norway) 04 - xiaohe",
+      "server": "zfd-boardv2.kunlun01dns.com",
+      "server_port": 16291,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇳🇴 挪威 (Norway) 01 - xiaohe",
         "🇳🇴 挪威 (Norway) 02 - xiaohe",
-        "🇳🇴 挪威 (Norway) 03 - xiaohe"
+        "🇳🇴 挪威 (Norway) 03 - xiaohe",
+        "🇳🇴 挪威 (Norway) 04 - xiaohe"
       ]
     },
     {
@@ -55,7 +64,8 @@
       "outbounds": [
         "🇳🇴 挪威 (Norway) 01 - xiaohe",
         "🇳🇴 挪威 (Norway) 02 - xiaohe",
-        "🇳🇴 挪威 (Norway) 03 - xiaohe"
+        "🇳🇴 挪威 (Norway) 03 - xiaohe",
+        "🇳🇴 挪威 (Norway) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
