@@ -1,0 +1,57 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "104.21.36.36",
+      "server_port": 443,
+      "uuid": "41750e18-7143-49a3-bdac-4edcb3c8b8f3",
+      "tls": {
+        "enabled": true,
+        "server_name": "h3hadzojqmjxwseayj0dwe4o0.ade-1018.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vl/ml3Epzqnzr8r2cTPtolbD5lTi1GWsZOP?ed=2560",
+        "headers": {
+          "Host": "h3hadzojqmjxwseayj0dwe4o0.ade-1018.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇮🇶 IQ 01 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇶 IQ 01 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
