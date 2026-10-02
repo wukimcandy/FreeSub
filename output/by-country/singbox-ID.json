@@ -4,17 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
-      "server": "az-1.linkaa.xyz",
-      "server_port": 55386,
-      "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/game/resources",
-        "headers": {
-          "Host": "az-1.linkaa.xyz"
+      "server": "103.172.197.3",
+      "server_port": 16006,
+      "uuid": "f8c9d2a1-da40-4f90-b671-11772a0b13d6",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ll7JTP628PuBMZJvx6fuhGSmCRSURnReAetmhCEL8GU",
+          "short_id": ""
         }
       }
     },
@@ -30,32 +36,11 @@
         "server_name": "aws.amazon.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
           "public_key": "pff94OJwuKXnF7_3SJ8KKJuAN4GJtInBlR-kg-4mwzQ",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
-      "server": "103.172.197.3",
-      "server_port": 16006,
-      "uuid": "f8c9d2a1-da40-4f90-b671-11772a0b13d6",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ll7JTP628PuBMZJvx6fuhGSmCRSURnReAetmhCEL8GU",
           "short_id": ""
         }
       }
@@ -66,8 +51,7 @@
       "outbounds": [
         "auto",
         "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
       ]
     },
     {
@@ -75,8 +59,7 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
