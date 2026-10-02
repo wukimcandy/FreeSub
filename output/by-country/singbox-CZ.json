@@ -6,26 +6,20 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "port2.axiomed.ir",
+      "server": "cz.monkora.org",
       "server_port": 443,
-      "uuid": "d443c411-85e4-4e0e-8251-2294d7e7ae0b",
+      "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
       "tls": {
         "enabled": true,
-        "server_name": "jwd9bmigrp5s8pqhayvpr6dj6ol.fornewiran-1014.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
+        "server_name": "example.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/II2kyrr06FWkCZfkFs?ed=2560 ",
-        "headers": {
-          "Host": "jwd9bmigrp5s8pqhayvpr6dj6ol.fornewiran-1014.workers.dev"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+          "short_id": ""
         }
       }
     },
@@ -41,7 +35,7 @@
         "server_name": "cz1.animeteka.info",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -59,7 +53,7 @@
       "tls": {
         "enabled": true,
         "server_name": "speedtestmark.com",
-        "insecure": false
+        "insecure": true
       }
     },
     {
