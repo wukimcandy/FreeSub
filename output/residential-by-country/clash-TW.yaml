@@ -19,20 +19,7 @@ proxies:
     headers:
       Host: argo6.5671234.xyz
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  server: tw3.dexlos.com
-  port: 8080
-  udp: true
-  type: tuic
-  uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
-  password: 8A9905B7-801B-41AF-BFC9-2034212770F6
-  sni: tw3.dexlos.com
-  skip-cert-verify: true
-  congestion-controller: bbr
-  udp-relay-mode: native
-  alpn:
-  - h3
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  server: 118.167.235.241
+  server: hinet1.2yly.com
   port: 24215
   udp: true
   type: vless
@@ -41,28 +28,7 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: qq
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  server: tw6.dexlos.com
-  port: 8080
-  udp: true
-  type: tuic
-  uuid: D7286728-678E-443B-B76B-B699654C66DD
-  password: D7286728-678E-443B-B76B-B699654C66DD
-  sni: tw6.dexlos.com
-  skip-cert-verify: true
-  congestion-controller: bbr
-  udp-relay-mode: native
-  alpn:
-  - h3
-- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
-  server: sbgfgov.vip23.wogacnmnagfwgov.com
-  port: 11223
-  udp: true
-  type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
-  cipher: auto
+  client-fingerprint: edge
 proxy-groups:
 - name: PROXIES
   type: select
@@ -70,9 +36,6 @@ proxy-groups:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -80,8 +43,5 @@ proxy-groups:
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
