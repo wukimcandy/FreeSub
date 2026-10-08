@@ -6,11 +6,13 @@
     {
       "type": "vmess",
       "tag": "🇨🇳 CN 01 - xiaohe",
-      "server": "goldcnmltyljgfwgov.vip60.wogcnmnnagfwgov.com",
-      "server_port": 11260,
-      "uuid": "605956ee-544d-308e-8b90-51e67c6ea8da",
+      "server": "39.108.113.127",
+      "server_port": 10086,
+      "uuid": "fde10e39-48bb-4dcf-b3ba-71d711323a54",
       "security": "auto",
-      "alter_id": 2
+      "transport": {
+        "type": "ws"
+      }
     },
     {
       "type": "selector",

@@ -5,13 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - xiaohe
-  server: goldcnmltyljgfwgov.vip60.wogcnmnnagfwgov.com
-  port: 11260
+  server: 39.108.113.127
+  port: 10086
   udp: true
   type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+  alterId: 0
   cipher: auto
+  network: ws
+  ws-opts:
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
