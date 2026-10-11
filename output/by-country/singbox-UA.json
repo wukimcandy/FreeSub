@@ -5,20 +5,23 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "cctvhikvision.center",
-      "server_port": 2053,
-      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
+      "server": "45.158.185.172",
+      "server_port": 443,
+      "uuid": "49e4b91a-bd15-4e54-9b51-41a3380afb51",
       "tls": {
         "enabled": true,
-        "server_name": "uwu.blueknightnet.qzz.io",
-        "insecure": false
+        "server_name": "z5n1.vpnpolar.online",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ]
       },
       "transport": {
         "type": "ws",
-        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
+        "path": "/beeline",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "z5n1.vpnpolar.online"
         }
       }
     },
@@ -27,14 +30,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

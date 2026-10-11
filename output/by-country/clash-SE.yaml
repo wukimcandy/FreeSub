@@ -5,15 +5,32 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  server: 70.34.199.238
-  port: 80
+  server: 191.44.114.51
+  port: 443
   udp: true
   type: vless
-  uuid: 98b76bb7-b2d1-47a8-8767-0d294c33e749
-  network: ws
-  ws-opts:
-    path: /
+  uuid: accfae78-b31c-47cb-86a1-bb9a07973e4a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: oT9R1OPLe1DlvnRK9sXmUH7_bXQ8LcbqEZRCCw4gXgA
+    short-id: af01c62234f5a7b5
+  servername: google.com
+  client-fingerprint: firefox
 - name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
+  server: se3.h1cloud.net
+  port: 25119
+  udp: true
+  type: vless
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4
+    short-id: 10f517
+  servername: www.samsung.com
+  client-fingerprint: chrome
+- name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
   server: 62.60.159.81
   port: 2053
   udp: true
@@ -24,32 +41,18 @@ proxies:
     public-key: ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw
     short-id: d0ea1847066af5a6
   servername: www.samsung.com
-  client-fingerprint: safari
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: grpce5bb9e71
-- name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  server: 70.34.197.239
-  port: 80
-  udp: true
-  type: vless
-  uuid: 98b76bb7-b2d1-47a8-8767-0d294c33e749
-  network: ws
-  ws-opts:
-    path: /
 - name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
-  server: 31.76.22.195
-  port: 2083
+  server: 13.143.174.151
+  port: 21223
   udp: true
-  type: vless
-  uuid: cc4074d6-f450-4025-833a-a6e0100ceaff
-  tls: true
-  servername: crt.molniya.sbs
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vless-ws
+  type: hysteria2
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  sni: sweedenqfds777.qcloud.surf
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
