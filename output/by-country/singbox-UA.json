@@ -27,26 +27,6 @@
     {
       "type": "vless",
       "tag": "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe",
-      "server": "netx.smrtai.top",
-      "server_port": 443,
-      "uuid": "d8b58872-cc25-4bb2-badb-b86399c075fa",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk",
-          "short_id": "d8b58872"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 03 - xiaohe",
       "server": "104.253.216.227",
       "server_port": 443,
       "uuid": "2ba7f500-017b-4891-87a0-e4e62a4ad52d",
@@ -66,33 +46,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 04 - xiaohe",
-      "server": "216.24.57.225",
-      "server_port": 2083,
-      "uuid": "3bcbd7ef-e05b-4745-a1de-5ecf98dd2fb6",
-      "tls": {
-        "enabled": true,
-        "server_name": "pol.netvia.ir",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wss",
-        "headers": {
-          "Host": "pol.netvia.ir"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 03 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 04 - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe"
       ]
     },
     {
@@ -100,9 +59,7 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 03 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 04 - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
