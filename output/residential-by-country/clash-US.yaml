@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe
-  server: 188.114.97.3
+  server: 172.66.44.211
   port: 2083
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
-  servername: newwk1.f1w.de5.net
+  servername: wk1.f1w.de5.net
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: newwk1.f1w.de5.net
+      Host: wk1.f1w.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
