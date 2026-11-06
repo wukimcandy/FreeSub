@@ -6,6 +6,27 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "195.123.245.241",
+      "server_port": 443,
+      "uuid": "7c053ca8-38cc-45e2-930c-eda1fd66f903",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway.icloud.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw",
+          "short_id": "23d0950d60bc0d5b"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
       "server": "212.102.38.25",
       "server_port": 443,
       "uuid": "b34a52cb-cd52-49a8-9362-b8e97c151d49",
@@ -15,7 +36,7 @@
         "server_name": "udemy.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -26,48 +47,22 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "104.19.235.15",
-      "server_port": 443,
-      "uuid": "f27b6f65-6e59-4f89-b929-afa397ca587f",
-      "tls": {
-        "enabled": true,
-        "server_name": "n.bitpulse.me",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/019bcbad-3813-7cce-8786-3ac0e418f128",
-        "headers": {
-          "Host": "n.bitpulse.me"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 03 - xiaohe",
-      "server": "server.slavkiti.monster",
+      "server": "193.124.17.190",
       "server_port": 443,
-      "uuid": "1896c6c9-a941-4688-a865-29027bf7f8e6",
+      "uuid": "fad0b9a6-187d-4fcc-96fc-498bc5b3135a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "www.foxsports.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
           "public_key": "J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk",
-          "short_id": "6c825bc79850"
+          "short_id": "8325360e8bd2"
         }
       }
     },
