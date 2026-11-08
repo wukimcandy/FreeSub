@@ -6,21 +6,21 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "195.123.245.241",
+      "server": "212.102.38.25",
       "server_port": 443,
-      "uuid": "7c053ca8-38cc-45e2-930c-eda1fd66f903",
+      "uuid": "b34a52cb-cd52-49a8-9362-b8e97c151d49",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gateway.icloud.com",
+        "server_name": "udemy.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
-          "public_key": "hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw",
-          "short_id": "23d0950d60bc0d5b"
+          "public_key": "23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE",
+          "short_id": "e90360ec7cc61b20"
         }
       }
     },
@@ -29,7 +29,7 @@
       "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
       "server": "193.124.17.190",
       "server_port": 443,
-      "uuid": "1896c6c9-a941-4688-a865-29027bf7f8e6",
+      "uuid": "68cf8d29-5aa0-44b3-88a9-f1a576b6e84c",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -41,7 +41,7 @@
         "reality": {
           "enabled": true,
           "public_key": "J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk",
-          "short_id": "6c825bc79850"
+          "short_id": "73a9e631a09b"
         }
       }
     },
