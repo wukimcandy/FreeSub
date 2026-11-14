@@ -4,44 +4,37 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.19.48.107",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": false
-      },
+      "server": "172.67.187.145",
+      "server_port": 80,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/tyxyws",
+        "path": "/ws",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "vmess.lbw666.dpdns.org"
         }
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.19.48.107",
+      "server": "104.21.80.180",
       "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "vmess.lbw666.dpdns.org",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/tyxyws",
+        "path": "/ws",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "vmess.lbw666.dpdns.org"
         }
       }
     },
