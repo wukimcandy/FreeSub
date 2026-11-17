@@ -27,24 +27,22 @@
     {
       "type": "vless",
       "tag": "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
-      "server": "a357e2g.es5.h1clayd.click",
+      "server": "c353abt.es5.h1clayd.click",
       "server_port": 443,
       "uuid": "2208b003-78b1-453c-b5ca-ce847ff0efd6",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "a357e2g.es5.h1clayd.click",
+        "server_name": "c353abt.es5.h1clayd.click",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "RBmtyb7WJzYMTHpRrlLwVk_dbSStfGds8dZtpTf6gAE",
-          "short_id": "23dda49556665b0d"
+          "public_key": "eYKLFr3Jz14re6BUiCNDujKxmUP4-SzCnSQvxVGfaCY",
+          "short_id": "3dcd74a8248d6bff"
         }
-      },
-      "transport": {
-        "type": "grpc"
       }
     },
     {
