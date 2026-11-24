@@ -10,7 +10,7 @@ proxies:
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: css.rbxcdn.com
+  sni: www.amazon.com
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
   server: 46.28.67.55

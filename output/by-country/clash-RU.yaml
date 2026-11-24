@@ -5,7 +5,29 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 201.51.12.98
+  server: 147.45.221.225
+  port: 443
+  udp: true
+  type: vless
+  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
+  tls: true
+  servername: nl.lucheeebezlimitnoekino.stream
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /media/ws/
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  server: 136.148.83.69
+  port: 443
+  udp: true
+  type: vless
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  tls: true
+  servername: szqbx-ru-77dc.my-fade.cloud
+  skip-cert-verify: false
+  client-fingerprint: qq
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  server: vps3.nemnogogo.com
   port: 443
   udp: true
   type: vless
@@ -13,39 +35,22 @@ proxies:
   tls: true
   servername: vps3.nemnogogo.com
   skip-cert-verify: false
-  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: mobile.api.Event
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 103.88.243.142
-  port: 11592
-  udp: true
-  type: hysteria2
-  password: 41edb44c8e
-  sni: srv-17e124
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 194.26.229.207
-  port: 4100
-  udp: true
-  type: vless
-  uuid: 026ecbd6-2838-40f6-b530-d2c303c4f629
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 136.148.83.71
+  server: 147.45.175.81
   port: 443
   udp: true
   type: vless
-  uuid: 00000000-0000-0001-0000-000000000000
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   tls: true
-  servername: wccfu-ru-79dc.my-fade.cloud
+  servername: xssite.webredirect.org
   skip-cert-verify: false
-  client-fingerprint: qq
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
 - name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   server: 147.45.175.81
   port: 443
@@ -55,7 +60,7 @@ proxies:
   tls: true
   servername: xsru2.freeddns.org
   skip-cert-verify: false
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: wsru
